@@ -1,6 +1,8 @@
 ---
 title: Schedule
 published: true
+hide_page_title: false
+hide_git_sync_repo_link: false
 ---
 
 #### [:fa-calendar: Week 1 (Sep 6 - 12)](/home/unit-01)
@@ -12,22 +14,22 @@ published: true
 
 #### [:fa-calendar: Week 2 (Sep 13 - 19)](/home/unit-02)
 **What does a holistic user experience design process look like?**  
-:fa-pencil: [Project Proposal](https://canvas.sfu.ca/courses/36662/assignments/267529) due Sep 19th  
+:fa-pencil: [Project Proposal](#) due Sep 19th  
 :fa-desktop: [The Process of UX Design](https://swipe.to/9967fp)  
 :fa-book: [Designing Digital Products with Mental Models](https://medium.com/salesforce-ux/designing-digital-products-with-mental-models-45ac5c0a9dc2)  
 :fa-users: In-class office hours (tentative)  
 
 #### [:fa-calendar: Week 3 (Sep 20 - 26)](/home/unit-03)
 **How to make more strategic design decisions?**   
-:fa-pencil: [Project Brief](https://canvas.sfu.ca/courses/36662/assignments/267543) and [Reflective Log](https://canvas.sfu.ca/courses/36662/assignments/267544) due Sep 26th  
+:fa-pencil: [Project Brief](#) and [Reflective Log](#) due Sep 26th  
 :fa-desktop: [Strategic UX Design](https://swipe.to/9967fp)  
 :fa-book: [3 Keys to Aligning UX with Business Strategy](https://www.uxmatters.com/mt/archives/2012/09/3-keys-to-aligning-ux-with-business-strategy.php)  
 :fa-users: In-class office hours (tentative)  
 
 #### [:fa-calendar: Week 4 (Sep 27 - Oct 3)](/home/unit-04)
 **How to conduct a usability inspection?**   
-:fa-pencil: [Usability Inspection](https://canvas.sfu.ca/courses/36662/assignments/267545) assignment due Oct 10th  
-:fa-file: [Usability Inspection Report Template](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Usability%20Inspection%20Report%20Template)  
+:fa-pencil: [Usability Inspection](#) assignment due Oct 10th  
+:fa-file: [Usability Inspection Report Template](#)  
 :fa-desktop: [User Interface Inspections](https://swipe.to/9967fp)  
 :fa-book: [An Overview of Expert Heuristic Evaluations ](https://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php)  
 :fa-users: In-class office hours (tentative)  
@@ -40,14 +42,14 @@ published: true
 
 #### [:fa-calendar: Week 6 (Oct 11 - 17)](/home/unit-06)
 **How to plan, conduct, and summarize usability tests?**  
-:fa-pencil: [Usability Inspection](https://canvas.sfu.ca/courses/36662/assignments/267545) assignment peer reviews due Oct 17th  
+:fa-pencil: [Usability Inspection](#) assignment peer reviews due Oct 17th  
 :fa-desktop: [Usability Inspection](https://swipe.to/9967fp)  
 :fa-book: [The Art of Guerrilla Usability Testing](http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/)  
 
 #### :fa-calendar: Week 7 (Oct 18 - 24)
 **How to explore and communicate possible design solutions?**  
-:fa-pencil: [User Research and Usability Benchmarks](https://canvas.sfu.ca/courses/36662/assignments/267546) and [Reflective Log](https://canvas.sfu.ca/courses/36662/assignments/267547) due Nov 7th  
-:fa-file-o: [Team Member Evaluation](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Team%20Member%20Evaluations) for assignment #3 due in class Nov 8th   
+:fa-pencil: [User Research and Usability Benchmarks](#) and [Reflective Log](#) due Nov 7th  
+:fa-file-o: [Team Member Evaluation](#) for assignment #3 due in class Nov 8th   
 :fa-folder: [Informed Consent Materials](https://canvas.sfu.ca/courses/36662/files/folder/Informed%20Consent)  
 :fa-desktop: Prototyping  
 :fa-book: [The Skeptic’s Guide To Low-Fidelity Prototyping](https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/)
@@ -66,9 +68,9 @@ published: true
 
 #### :fa-calendar: Week 10 (Nov 8 - 14)
 **What are the essentials of effective visual communication?**   
-:fa-pencil: [Design Mockups and Usability Tests](https://canvas.sfu.ca/courses/36662/assignments/267540) and [Reflective Log](https://canvas.sfu.ca/courses/36662/assignments/267541) due Nov 28th  
-:fa-file-o: [Team Member Evaluation](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Team%20Member%20Evaluations) for assignment #4 due via email Nov 28th  
-:fa-folder: [Informed Consent Materials](https://canvas.sfu.ca/courses/36662/files/folder/Informed%20Consent)  
+:fa-pencil: [Design Mockups and Usability Tests](#) and [Reflective Log](#) due Nov 28th  
+:fa-file-o: [Team Member Evaluation](#) for assignment #4 due via email Nov 28th  
+:fa-folder: [Informed Consent Materials](#)  
 :fa-desktop: Visual Design Essentials  
 :fa-book: [The Impact of Aesthetics on Attitudes Towards Websites](http://www.usability.gov/get-involved/blog/2009/07/aesthetics-and-attitude.html)   
 :fa-users: In-class office hours (tentative)  
