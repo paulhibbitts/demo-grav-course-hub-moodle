@@ -13,8 +13,9 @@ Harbour Centre 2146
 Another Name  
 <anothername@somewhere.edu>  
 
-##### Canvas LMS
-[Calendar](https://canvas.sfu.ca/calendar)  
+##### Moodle LMS
+[Dashboard](http://paulhibbitts.net/moodle/my/)  
+[Calendar](http://paulhibbitts.net/moodle/calendar/view.php?view=month)  
 [Assignments](https://canvas.sfu.ca/courses/36662/assignments)  
 [Quizzes](https://canvas.sfu.ca/courses/36662/quizzes)  
 [Class Discussions](https://canvas.sfu.ca/courses/36662/discussion_topics)  
