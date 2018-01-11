@@ -16,7 +16,7 @@ Another Name
 ##### Moodle LMS
 [Dashboard](http://paulhibbitts.net/moodle/my/)  
 [Calendar](http://paulhibbitts.net/moodle/calendar/view.php?view=month)  
-[Messages](http://paulhibbitts.net/moodle/grade/report/overview/index.php)
+[Messages](http://paulhibbitts.net/moodle/message/index.php)
 [Grades](http://paulhibbitts.net/moodle/grade/report/overview/index.php)
 
 [plugin:page-inject](/web-pick-of-the-week)
