@@ -16,11 +16,6 @@ Another Name
 ##### Moodle LMS
 [Dashboard](http://paulhibbitts.net/moodle/my/)  
 [Calendar](http://paulhibbitts.net/moodle/calendar/view.php?view=month)  
-[Assignments](https://canvas.sfu.ca/courses/36662/assignments)  
-[Quizzes](https://canvas.sfu.ca/courses/36662/quizzes)  
-[Class Discussions](https://canvas.sfu.ca/courses/36662/discussion_topics)  
-[Grades](https://canvas.sfu.ca/grades)  
-[Syllabus](https://canvas.sfu.ca/courses/36662/assignments/syllabus)
 
 [plugin:page-inject](/web-pick-of-the-week)
 
