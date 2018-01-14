@@ -4,7 +4,7 @@ published: true
 header_image_file: /home/unit-05/13966760787_2d0975e6bc_k.jpg
 ---
 
-### Oct 4th Class Preparations
+### Oct 4th Class
 
 ##### Required Reading
 [A Five-Step Process For Conducting User Research](http://www.smashingmagazine.com/2013/09/5-step-process-conducting-user-research/)

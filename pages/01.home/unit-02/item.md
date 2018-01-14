@@ -21,7 +21,7 @@ hide_git_sync_repo_link: false
 [plugin:page-inject](/slide-decks/week-02)
 
 ##### CMPT-363 UX Design Process/Toolkit
-![CMPT-363 UX Design Process/Toolkit Diagram](/images/ux-design-process-v4.png)
+![CMPT-363 UX Design Process/Toolkit Diagram](ux-design-process-v4.png)
 
 ##### Assignments
 [Project Proposal](https://canvas.sfu.ca/courses/36662/assignments/267529)   
