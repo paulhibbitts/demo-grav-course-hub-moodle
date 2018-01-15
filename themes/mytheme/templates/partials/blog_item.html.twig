@@ -116,7 +116,7 @@
       <p>{{ page.summary }}</p>
       <p>
         {% if page.parent.header.continue_links_as_buttons %}
-          <a class="btn btn-default" href="{{ page.url ~ '/chromeless:true' }}">View all of
+          <a class="btn btn-default" href="{{ page.url }}">View all of
         {% else %}
           <a href="{{ page.url }}">View all of
         {% endif %}
@@ -153,7 +153,7 @@
           {% if page.parent.header.continue_links_as_buttons %}
             <a class="btn btn-default topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
           {% else %}
-            <a class="topwindow external-link" href="{{ page.url }}">View all of
+            <a class="topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
           {% endif %}
           {{ page.title }}
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
