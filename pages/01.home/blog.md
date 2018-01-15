@@ -8,7 +8,9 @@ content:
     order:
         by: date
         dir: desc
-    pagination: true
+    pagination: '1'
+hide_git_sync_repo_link: false
+continue_links_as_buttons: true
 modular_content:
     items: '@self.modular'
     order:
@@ -20,3 +22,4 @@ feed:
     description: 'Grav CMS Open Course Hub Description'
     limit: 10
 ---
+
