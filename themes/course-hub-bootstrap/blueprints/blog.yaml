@@ -15,13 +15,41 @@ form:
 
             coursehub1:
                 type: section
-                title: Page Metadata
+                title: "Appearance"
                 underline: true
 
-            header.metadata:
-               type: array
-               label: Metadata Items
-               required: true
+            header.hide_blog_sidebar:
+                type:                      toggle
+                label:                     Display Sidebar on all Blog Pages
+                highlight:                 0
+                default:                   0
+                options:
+                    0:                     Yes
+                    1:                     No
+                validate:
+                    type:                  bool
+
+            header.post_icon:
+                type:                      text
+                size:                      small
+                label:                     Default Blog Item Font Awesome Icon
+                default:                   'calendar-o'
+                description:               Short name, e.g. 'calendar'.
+                help:                      Determines the default Font Awesome icon used for the blog posts.
+                validate:
+                    type:                  text
+
+            header.continue_link_as_button:
+                type: toggle
+                label: Display 'View all of...' Links as Buttons
+                help: Determines if 'View all of...' links are displayed as buttons
+                default: 0
+                highlight: 1
+                options:
+                    1:  Yes
+                    0:  No
+                validate:
+                    type: bool
 
             coursehub2:
                 type: section
@@ -48,3 +76,13 @@ form:
                 default: null
                 validate:
                     type: URL
+
+            coursehub3:
+                type: section
+                title: Page Metadata
+                underline: true
+
+            header.metadata:
+               type: array
+               label: Metadata Items
+               required: true
