@@ -2,9 +2,11 @@
 title: 'UX News'
 published: true
 hide_git_sync_repo_link: true
-rss_feed_display_order: date
+rss_feed_limit: '4'
+rss_feed_pagination: true
 rss_feed_header_images: true
 rss_feed_preview_paragraphs: two
+rss_feed_display_order: date
 hide_rss_feed_header_images_when_chromeless: false
 hide_page_title: false
 ---
