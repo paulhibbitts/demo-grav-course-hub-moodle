@@ -3,7 +3,7 @@ title: 'Sections Page'
 published: true
 hide_page_title: true
 show_sidebar: false
-sections_nav_align: left
+sections_nav_align: right
 content:
     items: '@self.children'
     order:
