@@ -5,20 +5,19 @@ title: Course Hub Item Options
 
 form:
   fields:
+
     tabs:
+      type: tabs
+      active: 1
 
       fields:
         content:
           type: tab
 
           fields:
-
             content:
-                markdown: true
-                default: "Your page summary goes here.\n\n===\n\nYour page content goes here."
+              default: "Your page summary goes here.\n\n===\n\nYour page content goes here."
 
-
-      fields:
         blog:
           type: tab
           title: Blog Item

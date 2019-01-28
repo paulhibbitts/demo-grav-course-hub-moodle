@@ -17,7 +17,7 @@ hide_git_sync_repo_link: false
 [Sep 27th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267535)
 
 ##### Presented Slides  
-[plugin:page-inject](/slide-decks/week-04)
+[plugin:page-inject](/slides/unit-04)
 
 ##### Supplemental Materials  
 [plugin:youtube](https://www.youtube.com/watch?v=gSm6bOw-KcQ)
@@ -27,10 +27,11 @@ hide_git_sync_repo_link: false
 [Usability Inspection Report Template](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Usability%20Inspection%20Report%20Template#)
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/week-04)
+[plugin:page-inject](/readings/unit-04)
+
+[plugin:page-inject](/h5p/heuristic-evaluation)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
-[plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
-
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+[plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
+[plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

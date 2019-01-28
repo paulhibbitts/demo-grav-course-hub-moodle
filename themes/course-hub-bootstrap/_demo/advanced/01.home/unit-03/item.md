@@ -17,20 +17,22 @@ hide_git_sync_repo_link: false
 [Sep 20th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267536)
 
 ##### Presented Slides  
-[plugin:page-inject](/slide-decks/week-03)
+[plugin:page-inject](/slides/unit-03)
 
 ##### Assignments
 [Project Proposal - Group Component](https://canvas.sfu.ca/courses/36662/assignments/240534)  
 [Project Proposal - Individual Component](https://canvas.sfu.ca/courses/36662/assignments/240533)  
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/week-03)
+[plugin:page-inject](/readings/unit-03)
+
+[plugin:page-inject](/h5p/journey-map)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/journey-mapping)
-[plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/problem-statements)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/design-principles-product)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/value-proposition)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/user-experience-strategy)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/journey-mapping)
+[plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/problem-statements)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/design-principles-product)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/value-proposition)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/user-experience-strategy)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

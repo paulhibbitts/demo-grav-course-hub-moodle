@@ -17,7 +17,7 @@ hide_git_sync_repo_link: false
 [Sep 13th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267537)
 
 ##### Presented Slides  
-[plugin:page-inject](/slide-decks/week-02)
+[plugin:page-inject](/slides/unit-02)
 
 ##### CMPT-363 UX Design Process/Toolkit
 ![CMPT-363 UX Design Process/Toolkit Diagram](/images/ux-design-process-v4.png)
@@ -29,9 +29,11 @@ hide_git_sync_repo_link: false
 [Product Reaction Cards](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Product%20Reaction%20Cards)  
 
 ##### Recommended Reading  
-[plugin:page-inject](/required-readings/week-02)
+[plugin:page-inject](/readings/unit-02)
+
+[plugin:page-inject](/h5p/user-centered-design)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   
+[plugin:content-inject](/topics-guide/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

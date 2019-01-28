@@ -27,7 +27,7 @@ form:
                     type: select
                     size: small
                     label: Embedly Card Alignment
-                    default: center
+                    default: left
                     options:
                         left: Left
                         center: Center
@@ -37,7 +37,7 @@ form:
                     ordering@: 3
                     type: text
                     size: long
-                    label: Embedly Card URL
+                    label: Embedly Card Web Page URL
                     validate:
                       type: URL
 

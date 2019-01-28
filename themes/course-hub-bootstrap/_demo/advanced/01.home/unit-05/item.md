@@ -15,23 +15,23 @@ hide_git_sync_repo_link: false
 [Oct 4th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267534)
 
 ##### Presented Slides  
-[plugin:page-inject](/slide-decks/week-05)
+[plugin:page-inject](/slides/unit-05)
 
 ##### Supplemental Materials  
 [What People Are Really Doing Video](http://vimeo.com/album/169777/video/7099570)  
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/7099570" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/week-05)
+[plugin:page-inject](/readings/unit-05)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/contextual-inquiry)
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/empathy-maps)
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/interviews)  
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/job-stories)  
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/personas-proto)    
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/surveys)  
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/task-analysis)  
-[plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/user-research)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/contextual-inquiry)
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/empathy-maps)
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/interviews)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/job-stories)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/personas-proto)    
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/surveys)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/task-analysis)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/user-research)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

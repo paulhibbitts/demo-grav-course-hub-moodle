@@ -19,7 +19,6 @@ form:
                 markdown: true
                 default: "Your page content goes here."
 
-      fields:
         options:
           type: tab
 

@@ -1,3 +1,225 @@
+# v2.3.6
+## 08/24/2018
+
+1. [](#improved)
+    * Updated theme description
+
+# v2.3.5
+## 07/02/2018
+
+1. [](#improved)
+    * Updated 'advanced' course examples in theme '_demo' folder
+
+# v2.3.4
+## 06/18/2018
+
+1. [](#improved)
+    * Reorganized template files for better compatibility with future Open Course Hub themes
+
+# v2.3.3
+## 06/15/2018
+
+1. [](#new)
+    * Added templates and blueprints for PDFs and SpeakerDeck files
+
+# v2.3.2
+## 05/18/2018
+
+1. [](#improved)
+    * Added check for missing Git Sync plugin
+
+# v2.3.1
+## 05/14/2018
+
+1. [](#improved)
+    * Removed Sitemap Plugin dependency
+    * Removed seldom needed "Advanced" Tab options within the Admin Panel (via custom default.yaml blueprint)
+
+# v2.3.0
+## 04/29/2018
+
+1. [](#new)
+    * Added 'Read Me' page to default demo pages
+
+# v2.2.9
+## 04/24/2018
+
+1. [](#improved)
+    * Added Blueprint option to display custom content item titles
+
+# v2.2.8
+## 04/23/2018
+
+1. [](#new)
+    * Added swipe blueprint for swipe custom content pages
+    * Added option to hide custom content item titles
+    * Added swipe deck title only page template
+    * Added embedly card title only page template
+1. [](#improved)
+    * Updated 'advanced' course examples in theme '_demo' folder
+
+# v2.2.7
+## 04/06/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P custom content pages
+
+# v2.2.6
+## 04/05/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P ShortCode
+
+# v2.2.5
+## 04/03/2018
+
+1. [](#improved)
+    * Theme shortcodes are now automatically loaded (`Custom Shortcodes` field in ShortCode Plugin no longer needs to be manually updated)
+
+# v2.2.4
+## 04/02/2018
+
+1. [](#new)
+    * Added H5P Shortcode button in Admin Panel page content editor
+1. [](#improved)
+    * Change default alignment for Embedly Card pages
+    * Updated support for hiding sidebar on Custom Content List pages
+    * Updated 'advanced' course examples in theme '_demo' folder
+
+# v2.2.3
+## 03/31/2018
+
+1. [](#new)
+    * Added experimental H5P Shortcode support (in the formats of [h5p id=ID] and [h5p url=URL])
+    * Added experimental Embed.ly Card Shortcode support (in the format of [embedly url=URL])
+    * Added experimental Swipe Shortcode support (in the format of [swipe id=ID])
+1. [](#improved)
+    * Added additional help text to H5P content page blueprint
+    * Updated 'basic', and 'intermediate' course examples in theme '_demo' folder
+
+# v2.2.2
+## 03/30/2018
+
+1. [](#improved)
+    * Updated H5P content page blueprint
+1. [](#bugfix)
+    * Temporarily changed H5P content item reference to node (ID) only
+
+# v2.2.1
+## 03/30/2018
+
+1. [](#improved)
+    * Updated example H5P content pages in 'advanced' course examples in theme '_demo' folder
+
+# v2.2.0
+## 03/28/2018
+
+1. [](#bugfix)
+    * Corrected H5P content page blueprint
+
+# v2.1.9
+## 03/28/2018
+
+1. [](#new)
+    * Added experimental H5P content page template
+
+# v2.1.8
+## 03/15/2018
+
+1. [](#improved)
+    * Changed theme author information to Hibbitts Design
+
+# v2.1.7
+## 03/11/2018
+
+1. [](#improved)
+    * Added experimental CSS styling files for light and dark grey site navbar
+    * Updated ReadMe file
+
+# v2.1.6
+## 03/01/2018
+
+1. [](#improved)
+    * Better aligned Git Sync Link Twig code with other Git Sync themes
+
+# v2.1.5
+## 02/27/2018
+
+1. [](#improved)
+    * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
+1. [](#bugfix)
+    * Corrected display of default modular template
+
+# v2.1.4
+## 02/20/2018
+
+1. [](#bugfix)
+    * Fixed handling of (optional) separate summary field for blog items with only a single line of text
+
+# v2.1.3
+## 02/13/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example in theme '_demo' folder
+1. [](#bugfix)
+    * Revision of bootstrap theme dependency syntax to include version check
+
+# v2.1.2
+## 02/12/2018
+
+1. [](#new)
+    * Added custom content list page template
+    * Added example 'Required Readings' and 'Slides' custom content listing page in 'advanced' course examples in theme '_demo' folder
+    * Added support for display of page content on accordion and custom content list pages
+1. [](#improved)
+    * Updated 'intermediate' and 'advanced' course examples in theme '_demo' folder
+
+# v2.1.1
+## 02/10/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example in theme '_demo' folder
+
+# v2.1.0
+## 02/10/2018
+
+1. [](#improved)
+    * Updated optional direct link to site theme files to support Git Sync setup
+
+# v2.0.9
+## 02/08/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example in theme '_demo' folder
+1. [](#bugfix)
+    * Restored optional direct link to site theme files
+
+# v2.0.8
+## 02/08/2018
+
+1. [](#improved)
+    * Updated course examples in theme '_demo' folder
+
+# v2.0.7
+## 02/07/2018
+
+1. [](#bugfix)
+    * Removal of bootstrapper dependency (should be automatically installed with bootstrap theme)
+
+# v2.0.6
+## 02/07/2018
+
+1. [](#improved)
+    * Updated choices for page Blueprint Git Sync link display option
+
+# v2.0.5
+## 02/06/2018
+
+1. [](#improved)
+    * Added additional choices for page Blueprint Git Sync link display option
+1. [](#bugfix)
+    * Corrected alignment of pagination controls when no blog sidebar is displayed
+
 # v2.0.4
 ## 02/02/2018
 
@@ -629,7 +851,7 @@
 ## 09/15/2016
 
 1. [](#bugfix)
-    * Fixed display issue with 'Featured' posts
+    * Fixed display issue with 'featured' posts
 
 # v1.4.3
 ## 08/28/2016
