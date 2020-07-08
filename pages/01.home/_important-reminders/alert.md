@@ -6,5 +6,8 @@ visible: false
 ---
 
 ## Important Reminders
-* [Journey Map](http://paulhibbitts.net/moodle/mod/assign/view.php?id=22) assignment due Jun 12th
-* [Course Reflection Log](http://paulhibbitts.net/moodle/mod/assign/view.php?id=23) assignment due Aug 3rd
+
+<ul>
+  <li><a href="http://paulhibbitts.net/moodle/mod/assign/view.php?id=22">Journey Map</a> assignment due Jun 11th</li>
+  <li><a href="http://paulhibbitts.net/moodle/mod/assign/view.php?id=23">Course Reflection Log</a> assignment due Aug 3rd</li>
+</ul>

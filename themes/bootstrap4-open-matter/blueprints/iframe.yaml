@@ -34,16 +34,29 @@ form:
                     validate:
                         type: bool
 
-                header.iframe_url:
+                header.iframe_source:
                     ordering@: 4
                     type: text
                     size: long
-                    label: iFrame Source URL (https)
+                    label: iFrame Source
+                    description: URL or Grav site page path.
                     validate:
-                      type: URL
+                      required: true
+
+                header.display_iframe_title_link:
+                    ordering@: 5
+                    type: toggle
+                    label: Set iFrame Title as a Link to Source
+                    default: 0
+                    highlight: 1
+                    options:
+                        1:  Yes
+                        0:  No
+                    validate:
+                        type: bool
 
                 header.iframe_aspect_ratio:
-                    ordering@: 5
+                    ordering@: 6
                     type: select
                     label: iFrame Aspect Ratio
                     default: 4by3
@@ -53,10 +66,10 @@ form:
                         16by9: 16by9
 
                 header.iframe_links:
-                    ordering@: 6
+                    ordering@: 7
                     name: iframelinks
                     type: list
-                    label: 'iFrame Links'
+                    label: 'Additional iFrame Links'
                     fields:
                         .text:
                             type: text
@@ -66,10 +79,10 @@ form:
                             type: text
                             label: Icon
                             description: 'Font Awesome icon for link item.'
-                        .url:
+                        .source:
                             type: text
-                            label: URL
-                            description: 'URL for link item.'
+                            label: Source
+                            description: 'URL or Grav site page path for link item.'
 
                 content:
                   unset@: true

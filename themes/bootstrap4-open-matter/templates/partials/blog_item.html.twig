@@ -42,7 +42,7 @@
         <div class="list-blog-meta my-3">
             {% if not (page.parent.header.hide_post_date) %}
                 <span class="list-blog-date">
-                <i class="fa fa-calendar"></i> <span>{{ page.date|date("F j, Y, g:i a") }}</span>
+                <i class="fa fa-calendar"></i> <span>{{ page.date|date(system.pages.dateformat.short) }}</span>
               </span>
             {% endif %}
 
@@ -57,6 +57,8 @@
             {% endif %}
 
         </div>
+
+        {% if not (grav.uri.param('hideheaderimage')) %}
 
         {% if big_header %}
             {{ page.media.images|first.cropResize(1200,600).html('','blog-header-image') }}
@@ -73,10 +75,10 @@
 
               {# support image credit tag with optional image meta file - hibbittsdesign.org #}
               {% if header_image_media %}
+                {% set image_alt_text = page.header.header_image_alt_text %}
                 {% if page.header.header_image_credit %}
                   {% set image_credit = page.header.header_image_credit %}
                   {% set image_creditlink = page.header.header_image_creditlink %}
-                  {% set image_alt_text = page.header.header_image_alt_text %}
                 {% elseif header_image_media.meta.header_image_credit  %}
                   {% set image_credit = header_image_media.meta.header_image_credit %}
                   {% set image_creditlink = header_image_media.meta.header_image_creditlink %}
@@ -100,6 +102,8 @@
 
               {% endif %}
             {% endif %}
+
+          {% endif %}
           </div>
 
     <div class="list-blog-padding">
@@ -160,9 +164,7 @@
               {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( theme_var('display_of_git_sync_repo_link') == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
                 <br>
                 <hr>
-                <br>
-                {% include 'partials/git_sync_repo_link_note.html.twig' %}
-                <br>
+                <p>{% include 'partials/git_sync_repo_link_note.html.twig' %}</p>
               {% endif %}
 
               {% set show_prev_next = true %}

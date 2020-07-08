@@ -1,10 +1,11 @@
-{% set multi_course_hub = theme_var('multi_course_hub.enabled') %}
 {% set arrayofpath = uri.path|split('/') %}
 {% set firstfolderofpath = arrayofpath[1] %}
+{% set secondfolderofpath = arrayofpath[2] %}
 
 {# MultiCourse hub compatibility - hibbittsdesign.org #}
-{% if multi_course_hub or page.find('/' ~ firstfolderofpath).template == 'course' %}
+{% if page.find('/' ~ firstfolderofpath).template == 'course' or page.find('/' ~ firstfolderofpath).template == 'subsite' %}
   {% if firstfolderofpath %}
+    {% set favicon = page.find('/' ~ firstfolderofpath ~ '/favicon' ).media.images|first %}
     {% set site_title = page.find('/' ~ firstfolderofpath ).title %}
   {% else %}
     {% set site_title = site.title|e('html') %}
@@ -13,13 +14,41 @@
   {% if footer_content == empty %}
     {% set footer_content = page.find('/footer').content %}
   {% endif %}
+{% elseif page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).template == 'course' or  page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).template == 'subsite' %}
+  {% set favicon = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath ~ '/favicon' ).media.images|first %}
+  {% if favicon is empty %}
+    {% set favicon = page.find('/' ~ firstfolderofpath ~ '/favicon' ).media.images|first %}
+  {% endif %}
+  {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.course_site_title %}
+  {% if site_title is empty %}
+    {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.subsite_site_title %}
+  {% endif %}
+  {% if site_title is empty %}
+    {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).title %}
+  {% endif %}
+  {% set footer_content = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath ~ '/footer').content %}
+  {% if footer_content == empty %}
+    {% set footer_content = page.find('/footer').content %}
+  {% endif %}
 {% else %}
+  {% set favicon = page.find('/favicon' ).media.images|first %}
   {% set site_title = site.title|e('html') %}
   {% set footer_content = page.find('/footer').content %}
 {% endif %}
 
+{% if favicon == empty %}
+  {% set favicon = page.find('/favicon' ).media.images|first %}
+    {% if favicon == empty %}
+      {% set favicon_url = 'theme://images/favicon.png' %}
+    {% else %}
+      {% set favicon_url = favicon.url %}
+    {% endif %}
+{% else %}
+  {% set favicon_url = favicon.url %}
+{% endif %}
+
 <!DOCTYPE html>
-<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
     <head>
         {% block head %}
         <meta charset="utf-8" />
@@ -29,21 +58,28 @@
         {% include 'partials/metadata.html.twig' %}
 
         <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site_title }}</title>
-        <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
+        <link rel="icon" type="image/png" href="{{ url(favicon_url,true) }}" />
 
         {% block stylesheets %}
             {# load theme.css and custom.css files - hibbittsdesign.org #}
-            {% if theme_var('theme_stylesheet') != 'default' %}
-              {% do assets.addCss("theme://css/bootswatch/#{ theme_var('theme_stylesheet') }/bootstrap.min.css", 100) %}
+            {% if theme.theme_stylesheet is defined and theme_var('theme_stylesheet') is not empty %}
+              {% if theme_var('theme_stylesheet') != 'default' %}
+                {% do assets.addCss("theme://css/bootswatch/#{ theme_var('theme_stylesheet') }/bootstrap.min.css", 100) %}
+              {% else %}
+                {% do assets.addCss('theme://css/bootstrap/bootstrap.min.css') %}
+              {% endif %}
             {% else %}
-              {% do assets.addCss('theme://css/bootstrap/bootstrap.min.css', 100) %}
+              {% do assets.addCss('theme://css/bootstrap/bootstrap.min.css') %}
             {% endif %}
-            {% do assets.addCss('theme://css/theme.css',98) %}
-            {% do assets.addCss('theme://css/custom.css',99) %}
-            {% do assets.add('theme://css/font-awesome.min.css',97) %}
-            {% do assets.add('theme://css-compiled/theme.css',96) %}
+            {% do assets.add('theme://css/font-awesome.min.css') %}
+            {% do assets.add('theme://css-compiled/theme.css') %}
+            {% do assets.addCss('theme://css/theme.css') %}
+            {% do assets.addCss('theme://css/custom.css') %}
+            
+            {% if ((grav.uri.param('chromeless') or grav.uri.param('embedded')) or theme_var('chromeless.enabled')) %}
+              {% do assets.addInlineCss('.chromeless-show{display:block}.chromeless-hide{display:none}') %}
+            {% endif %}
         {% endblock %}
-        {{ assets.css()|raw }}
 
         {% block javascripts %}
             {% do assets.add('jquery', 101) %}
@@ -57,12 +93,16 @@
                 {% do assets.add('theme://js/html5shiv-printshiv.min.js') %}
             {% endif %}
         {% endblock %}
-        {{ assets.js()|raw }}
+
+        {% block assets deferred %}
+            {{ assets.css()|raw }}
+            {{ assets.js()|raw }}
+        {% endblock %}
 
         {% endblock head %}
     </head>
 
-    <body class="{% block body_classes %}{{ page.header.body_classes }}{% endblock %}">
+    <body class="{% block body_classes %}{{ page.header.body_classes }}{% if (grav.uri.param('chromeless') or grav.uri.param('embedded')) or (theme_var('chromeless.enabled')) %} chromeless{% endif %}{% endblock %}">
 
         {# check content display flag - hibbittsdesign.org #}
         {% if not (grav.uri.param('chromeless') or grav.uri.param('embedded')) and not(theme_var('chromeless.enabled')) %}
@@ -88,10 +128,6 @@
                     <a href="#" id="top" title="Top of Page">
                       <i class="fa fa-angle-up" aria-hidden="true"></i>
                     </a>
-                  </div>
-                {% else %}
-                  <div class="up-arrow">
-                    &nbsp;
                   </div>
                 {% endif %}
                 {# use footer folder page for content - hibbittsdesign.org #}
