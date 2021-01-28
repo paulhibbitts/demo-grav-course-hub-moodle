@@ -2,41 +2,38 @@
 title: 'Week 1 (May 9 - 15)'
 published: true
 date: '09-05-2018 00:00'
+header_image_alt_text: 'SFU Academic Quadrangle'
+header_image_credit: 'Julian Schüngel, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/medevac71/10610701655/'
 hide_from_post_list: false
+continue_link: true
 hide_git_sync_repo_link: true
 ---
 
-## What is this course all about?
-[Course Overview](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf)
-
 ## What is usability and user experience design?
-[HCI, UI, IA, IxD, and UX](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=3)  
-[Design Thinking](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=4)  
-[Usability and UCD](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=5)  
+[HCI, UI, IA, IxD, and UX](../../presentations/module-01#/module-01-4)  
+[Design Thinking](../../presentations/module-01#/module-01-5)  
+[Usability and UCD](../../presentations/module-01#/module-01-6)  
 
 ===
 
 ## **What is usability and user experience design?**
 
 ### Summaries and Questions  
-[May 9th Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519517)
+[May 9th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[plugin:page-inject](/all-slides/week-01-1)  
-[plugin:page-inject](/all-slides/week-01-2)  
+[presentation="presentations/module-01"]
 
 ### Supplemental Materials  
-[Interaction Design History](http://www.slideshare.net/mrettig/interaction-design-history)  
-<div class="embed-responsive embed-responsive-4by3"><iframe src="//www.slideshare.net/slideshow/embed_code/key/aTtcFNn7i55UVK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
+[Elements of User Experience by Jesse James Garrett](https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf)  
+[pdf]https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf[/pdf]
 
 ### Handouts
-[Course Overview](https://sso.canvaslms.com/courses/1413912/files/folder/Handouts/Course%20Overview)  
+[Course Overview](https://canvas.sfu.ca/courses/55288/files)  
+
+### Quick Quiz
+[h5p]https://h5p.org/h5p/embed/213956[/h5p]  
 
 ### Recommended Reading  
-[plugin:page-inject](/all-readings/week-01)
-
-### Supplemental Readings  
-[plugin:content-inject](/ux-techniques-guide/what-does-a-holistic-user-experience-design-process-look-like/design-ethics)  
-[plugin:content-inject](/ux-techniques-guide/what-is-usability-and-user-experience-design/usability)  
-[plugin:content-inject](/ux-techniques-guide/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)  
-[plugin:content-inject](/ux-techniques-guide/what-is-usability-and-user-experience-design/user-experience-design)  
+[embedly]http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/[/embedly]

@@ -4,34 +4,35 @@ published: true
 date: '23-05-2018 00:00'
 hide_from_post_list: false
 hide_git_sync_repo_link: true
+header_image_credit: 'Emilio Küffer, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/emiliokuffer/6384294717/'
+header_image_alt_text: 'Bullseye'
 ---
 
 ## How to make more strategic design decisions?  
-[User Experience Strategy](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=3)  
-[Current State and Future State](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=4)  
-[Journey Mapping](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=5)  
+[User Experience Strategy](../../presentations/module-03#/module-03-4)  
+[Current State and Future State](../../presentations/module-03#/module-03-5)  
+[Journey Mapping](../../presentations/module-03#/module-03-6)  
 
 ===
 
 ## **How to make more strategic design decisions?**
 
 ### Summaries and Questions  
-[May 23rd Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519524)
+[May 23rd Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[plugin:page-inject](/all-slides/week-03)
+[presentation="presentations/module-03"]
 
 ### Supplemental Materials  
 [Customer Journey Mapping](https://www.youtube.com/watch?v=a40QYgO-_aM)  
-<div class="embed-responsive embed-responsive-4by3"><iframe width="560" height="315" src="https://www.youtube.com/embed/a40QYgO-_aM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+[youtube]https://www.youtube.com/watch?v=a40QYgO-_aM[/youtube]
 
 ### Assignments
-[Journey Map](https://sso.canvaslms.com/courses/1413912/assignments/9519531)  
+[Journey Map](https://canvas.sfu.ca/courses/55288/assignments)  
+
+### Quick Quiz
+[h5p]https://h5p.org/h5p/embed/213958[/h5p]
 
 ### Required Reading  
-[plugin:page-inject](/all-readings/week-03)
-
-### Supplemental Readings  
-[plugin:content-inject](/ux-techniques-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/interviews)  
-[plugin:content-inject](/ux-techniques-guide/how-to-make-more-strategic-design-decisions/journey-mapping)  
-[plugin:content-inject](/ux-techniques-guide/how-to-make-more-strategic-design-decisions/user-experience-strategy)  
+[embedly]https://www.aytech.ca/blog/user-journey-map/[/embedly]

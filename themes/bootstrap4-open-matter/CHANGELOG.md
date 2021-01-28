@@ -1,3 +1,163 @@
+# v3.5.1
+## 01/28/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.0
+## 01/26/2021
+
+1. [](#improved)
+    * Updated theme blueprints for Grav 1.7
+
+# v3.4.9
+## 01/25/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.8
+## 01/15/2021
+
+1. [](#new)
+    * GoogleSlides shortcode updated to handle double `_` characters in URL (thanks @GeorgesPapas)
+
+# v3.4.7
+## 01/05/2021
+
+1. [](#new)
+    * Initial NextGen Editor support for H5P shortcode
+
+# v3.4.6
+## 12/21/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.5
+## 12/20/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.4
+## 12/20/2020
+
+1. [](#new)
+    * Initial NextGen Editor support for PDF shortcode
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.3
+## 12/19/2020
+
+1. [](#new)
+    * Initial NextGen Editor support for GoogleSlides, Button and Badge shortcodes
+
+# v3.4.2
+## 11/29/2020
+
+1. [](#improved)
+    * Updated theme screenshots
+
+# v3.4.1
+## 11/28/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.0
+## 11/09/2020
+
+1. [](#bugfix)
+    * Corrected CSS styling for active page button on RSSFeeds page
+
+# v3.3.9
+## 09/06/2020
+
+1. [](#improved)
+    * Added support for External Links Plugin target with badge shortcode target
+
+# v3.3.8
+## 09/04/2020
+
+1. [](#bugfix)
+    * Corrected CSS styling for button, badge, and navbar-branding elements
+
+# v3.3.7
+## 09/04/2020
+
+1. [](#improved)
+    * Updated Link page blueprint to include badge label, type and url
+
+# v3.3.6
+## 09/03/2020
+
+1. [](#improved)
+    * Added support for badge types and urls in link page types
+
+# v3.3.5
+## 09/03/2020
+
+1. [](#improved)
+    * Added `target` attribute to badge shortcode
+
+# v3.3.4
+## 08/16/2020
+
+1. [](#bugfix)
+    * Fixed issue with modular item display on Blog pages
+
+# v3.3.3
+## 07/24/2020
+
+1. [](#improved)
+    * Adjusted visual appearance of badges for link page types
+
+# v3.3.2
+## 07/24/2020
+
+1. [](#improved)
+    * Added support of link `url` to badges
+    * Adjusted visual appearance of badges
+
+# v3.3.1
+## 07/22/2020
+
+1. [](#bugfix)
+    * Updated templates for latest RC build (v.15)
+
+# v3.3.0
+## 07/22/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.2.9
+## 07/19/2020
+
+1. [](#bugfix)
+    * Fixed Presentation blueprint error (thanks @SteveDaulton)
+    * Fixed Section and Subsection blueprint error
+
+# v3.2.8
+## 07/12/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.2.7
+## 07/10/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.2.6
+## 07/08/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
 # v3.2.5
 ## 07/03/2020
 
@@ -8,7 +168,7 @@
 ## 07/03/2020
 
 1. [](#new)
-    * Added GoogleSlides Shortcode ([googleslides url=""]) to display embedded Google Slides
+    * Added GoogleSlides Shortcode ([googleslides="url"]) to display embedded Google Slides
 
 # v3.2.3
 ## 06/09/2020
@@ -58,8 +218,6 @@
 
 1. [](#new)
     * Added `badge` shortcode for display of badges
-1. [](#improved)
-    * Added support for optional display of badge with `link` page types
 
 # v3.1.5
 ## 04/26/2020

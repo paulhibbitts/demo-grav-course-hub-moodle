@@ -4,35 +4,33 @@ published: true
 date: '30-05-2018 00:00'
 hide_from_post_list: false
 hide_git_sync_repo_link: true
+header_image_credit: 'Samuel Mann, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/21218849@N03/6968244538/'
+header_image_alt_text: 'Paper-based prototype'
 ---
 
 ## How to explore and communicate possible design solutions?
-[Forms and Methods](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=3)  
-[Design Scenarios](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=4)  
-[Sketching and Storyboarding](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=5)  
+[Forms and Methods](../../presentations/module-04#/module-04-4)  
+[Design Scenarios](../../presentations/module-04#/module-04-5)  
+[Sketching and Storyboarding](../../presentations/module-04#/module-04-6)  
 
 ===
 
 ## **How to explore and communicate possible design solutions?**
 
 ### Summaries and Questions  
-[May 30th Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519523)
+[May 30th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[plugin:page-inject](/all-slides/week-04)
+[presentation="presentations/module-04"]
 
 ### Supplemental Materials  
 [UI Sketching Conventions](https://www.youtube.com/watch?v=MwidSAlbEB8)  
-<div class="embed-responsive embed-responsive-4by3"><iframe width="560" height="315" src="https://www.youtube.com/embed/MwidSAlbEB8" frameborder="0" allowfullscreen></iframe></div>
+[youtube]https://www.youtube.com/watch?v=MwidSAlbEB8[/youtube]  
 
 ### Handouts
-[4-UP BROWSERS + GRID](https://sso.canvaslms.com/courses/1413912/files/folder/Handouts/Sketching%20Templates/sneakpeekit-4-browsers)  
-[4-UP MOBILES + GRID](https://sso.canvaslms.com/courses/1413912/files/folder/Handouts/Sketching%20Templates/sneakpeekit-4-mobiles)  
+[4-UP BROWSERS + GRID]((https://canvas.sfu.ca/courses/55288/files)  
+[4-UP MOBILES + GRID]((https://canvas.sfu.ca/courses/55288/files)  
 
 ### Required Reading  
-[plugin:page-inject](/all-readings/week-04)
-
-### Supplemental Readings  
-[plugin:content-inject](/ux-techniques-guide/how-to-explore-and-describe-possible-design-solutions/brainstorming)  
-[plugin:content-inject](/ux-techniques-guide/how-to-explore-and-describe-possible-design-solutions/prototyping)  
-[plugin:content-inject](/ux-techniques-guide/how-to-explore-and-describe-possible-design-solutions/scenarios)  
+[embedly]https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/[/embedly]

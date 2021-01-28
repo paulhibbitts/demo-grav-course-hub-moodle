@@ -9,23 +9,22 @@ cache_enable: false
 Some Name  
 [safe-email autolink="true"]somename@somewhere.edu[/safe-email]  
 
-In-person office hours:  
-Wednesdays 2:30-4:00pm  
-TBD  
+Online office hours:  
+Mondays 12:00-1:30pm  
+Fridays 12:00-1:00pm  
 
-Virtual office hours chat:  
-Mondays 12:00-1:30pm   
-Fridays 12:00-1:00pm
+Suggestion, concern or complaint?  
+[Anonymous Course Feedback](#)
 
 ## Canvas LMS
-[Calendar](https://sso.canvaslms.com/calendar)  
-[Assignments](https://sso.canvaslms.com/courses/1413912/assignments)  
-[Quizzes](https://sso.canvaslms.com/courses/1413912/quizzes)  
-[Class Discussions](https://sso.canvaslms.com/courses/1413912/discussion_topics)  
-[Grades](https://sso.canvaslms.com/courses/1413912/grades)  
+[fa="calendar"][/fa][Calendar](https://canvas.sfu.ca/calendar)  
+[fa="pencil"][/fa][Assignments](https://canvas.sfu.ca/courses/55288/assignments)  
+[fa="check-circle"][/fa][Quizzes](https://canvas.sfu.ca/courses/55288/quizzes)  
+[fa="comments-o"][/fa][Class Discussions](https://canvas.sfu.ca/courses/55288/discussion_topics)  
+[fa="list-ul"][/fa][Syllabus](https://canvas.sfu.ca/courses/55288/syllabus)  
 
 ## Web Pick of the Week
 [plugin:page-inject](../web-pick-of-the-week/)
 
 ## Twitter Feed
-[twitter url="https://twitter.com/hibbittsdesign/lists/cpt-363" text="A Twitter list by @hibbittsdesign" height="600"]
+[twitter url="https://twitter.com/hibbittsdesign/lists/cpt-363" text="A Twitter list by @hibbittsdesign" height="600"][/twitter]

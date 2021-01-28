@@ -10,29 +10,29 @@ header_image_alt_text: 'Bullseye'
 ---
 
 ## How to make more strategic design decisions?  
-[User Experience Strategy](../../presentations/module-03#/module-03-4?target=_blank)  
-[Current State and Future State](../../presentations/module-03#/module-03-5?target=_blank)  
-[Journey Mapping](../../presentations/module-03#/module-03-6?target=_blank)  
+[User Experience Strategy](../../presentations/module-03#/module-03-4)  
+[Current State and Future State](../../presentations/module-03#/module-03-5)  
+[Journey Mapping](../../presentations/module-03#/module-03-6)  
 
 ===
 
 ## **How to make more strategic design decisions?**
 
 ### Summaries and Questions  
-[May 23rd Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519524)
+[May 23rd Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
 [presentation="cpt363-advanced/presentations/module-03"]
 
 ### Supplemental Materials  
 [Customer Journey Mapping](https://www.youtube.com/watch?v=a40QYgO-_aM)  
-[plugin:youtube](https://www.youtube.com/watch?v=a40QYgO-_aM)
+[youtube]https://www.youtube.com/watch?v=a40QYgO-_aM[/youtube]  
 
 ### Assignments
-[Journey Map](https://sso.canvaslms.com/courses/1413912/assignments/9519531)  
+[Journey Map](https://canvas.sfu.ca/courses/55288/assignments)  
 
 ### Quick Quiz
-[h5p id="213958"]
+[h5p]https://h5p.org/h5p/embed/213958[/h5p]
 
 ### Required Reading  
-[embedly url="https://www.aytech.ca/blog/user-journey-map/"]
+[embedly]https://www.aytech.ca/blog/user-journey-map/[/embedly]
